@@ -2,7 +2,7 @@
     --main-text-color: #EFF6EE;
     --header-text-color: #EFF6EE;
     --main-bg-color: #1D4433;
-    --link-color: #A675A1;
+    --link-color: #FF92C2;
   }
   
   .navbar {
@@ -72,4 +72,12 @@
   .content ul {
     display: inline-block;
     text-align: left;
+  }
+
+  .secret {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding:2px;
+    font-size: .7vw;
   }
