@@ -8,8 +8,6 @@
   .navbar {
     overflow: hidden;
     background-color: var(--main-bg-color);
-    position: fixed;
-    top: 0;
     width: 100%;
     margin: auto;
     justify-content: start;
@@ -27,18 +25,6 @@
     display: flex;
   }
 
-
-  .spacer
-  {
-      width: 100%;
-      height: 2rem;
-  }
-  @media (min-width:1280px) {
-    .spacer
-    {
-        height: 95px;
-    }
-  }
   .header {
     margin: auto;
     width: 50%;
